@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+span {
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+.cardsectionthree {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    column-gap: 30px;
+    margin: 0px 220px;
+    padding: 20px;
+}
+.cardsectionthree > div >div > img {
+    width: 260px;
+    height: 140px;
+}
+.cardsectionthree > div > button {
+    width: 160px;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border-radius: 40px;
+    border-color: rgb(233, 207, 207);
+    text-align: center;
+    margin-left: 50px;
+}
+.paragraph-N-image1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+} 
+
