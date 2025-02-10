@@ -5,9 +5,13 @@
 body {
     background-color: black;
 }
+@font-face {
+    font-family: Syeda;
+    src: url(./Plaster-Regular.ttf);
+}
 span {
-    font-family: monospace;
-    font-size: 50px;
+    font-family: Syeda ;
+
     font-weight: bold;
 }
 .cardsectionthree {
@@ -15,8 +19,8 @@ span {
     flex-wrap: wrap;
     flex: 1;
     column-gap: 30px;
-    margin: 0px 220px;
-    padding: 20px;
+    margin: 0px 200px;
+    padding: 30px;
 }
 .cardsectionthree > div >div > img {
     width: 260px;
@@ -32,9 +36,109 @@ span {
     text-align: center;
     margin-left: 50px;
 }
-.paragraph-N-image1 {
+.paragraph-N-image1 , .Cards9 {
     display: flex;
     flex-wrap: wrap;
     color: white;
+    justify-content: space-around;
+    flex: 1;
+} 
+.paragraph-N-image1 > div > button {
+    width: 160px;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border-radius: 40px;
+    border-color: rgb(233, 207, 207);
+    text-align: center;
+    margin-left: 30px;
+
+}
+#Islamabad  {
+    color: red;
+}
+.paragraph-N-image1 > div > img {
+    width: 550px;
+}
+.Cards9 {
+    display: flex;
+
+    color: white;
+    justify-content: space-around;
+    column-gap: 30px;
+    margin: 20px;
+
 } 
 
+.Cards9 > div  >div  > img {
+    width: 350px;
+}
+.Cards9 > div   > div {
+    text-align: center;
+}
+.Cards9 > div  > div >button {
+    width: 160px;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border-radius: 40px;
+    border-color: rgb(233, 207, 207);
+    text-align: center;
+    margin-left: 30px;
+
+
+}
+.images-6 {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.images-6 > div > img { 
+    width: 350px;
+    height: 300px;
+
+}
+.images-5 {
+    display: flex;
+    column-gap: 10px;
+}
+.images-5 >div >img {
+    width: 260px;
+}
+.bar-b {
+    height: 265px;
+}
+.burger {
+    height: 265px;
+    width: 300px;
+}
+.footer {
+    display: flex ;
+    color: rgb(196, 186, 186);
+}
+.img-logo {
+    margin: 0px 90px;
+    width: 350px;
+}
+.head {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+li {
+    list-style: none;
+}
+.contactUs {
+    height: 200px;
+}
+.iconss {
+    font-size: 40px;
+
+}
+.apple-icon  > img {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    border: transparent;
+
+}
