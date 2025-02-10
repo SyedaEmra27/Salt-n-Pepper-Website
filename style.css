@@ -112,9 +112,12 @@ span {
     height: 265px;
     width: 300px;
 }
-.footer {
+
+.footer1 {
     display: flex ;
     color: rgb(196, 186, 186);
+    
+   
 }
 .img-logo {
     margin: 0px 90px;
@@ -131,14 +134,27 @@ li {
 .contactUs {
     height: 200px;
 }
-.iconss {
+.iconss , .iconss >a  {
     font-size: 40px;
+    text-decoration: none;
+    color: red;
 
 }
-.apple-icon  > img {
-    width: 170px;
-    height: 50px;
+.apple-icon  > a> img {
+    width: 150px;
+    height: 35px;
     border-radius: 5px;
-    border: transparent;
 
+}
+.last {
+    color: white;
+
+    
+}
+.tossdown {
+    margin-right: 500px;
+
+}
+.Powered {
+    text-align: end;
 }
